@@ -1,0 +1,10 @@
+-- 1. Most popular genres on Netflix
+SELECT Genre, COUNT(*) AS NumShows
+FROM Netflix_Shows
+GROUP BY Genre
+ORDER BY NumShows DESC
+LIMIT 5;
+
+-- 2. Average rating of Netflix shows
+SELECT AVG(Rating) AS AvgRating
+FROM Netflix_Shows;
