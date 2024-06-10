@@ -11,3 +11,9 @@ Let's use some simple SQL queries to explore the data.
 Cool Facts:
 Most popular genres on Netflix.
 Average rating of Netflix shows.
+3. Ask Away:
+Now, let's formulate two questions about the data and find answers using SQL queries.
+
+Questions:
+What are the top-rated Netflix shows?
+How does the average rating vary across different genres?
