@@ -8,3 +8,15 @@ LIMIT 5;
 -- 2. Average rating of Netflix shows
 SELECT AVG(Rating) AS AvgRating
 FROM Netflix_Shows;
+
+-- 1. What are the top-rated Netflix shows?
+SELECT Title, Rating
+FROM Netflix_Shows
+ORDER BY Rating DESC
+LIMIT 10;
+
+-- 2. How does the average rating vary across different genres?
+SELECT Genre, AVG(Rating) AS AvgRating
+FROM Netflix_Shows
+GROUP BY Genre
+ORDER BY AvgRating DESC;
