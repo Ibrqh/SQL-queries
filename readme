@@ -1,0 +1,13 @@
+1. Data Dive:
+I'll choose the "Netflix Shows" dataset.
+
+Difficulties:
+Importing the dataset into MySQL Workbench might require creating the table structure based on the dataset schema and then importing the data. This process can be challenging if the dataset has complex relationships or data types that need to be properly mapped to MySQL data types.
+Interesting Observation:
+One interesting thing about the "Netflix Shows" dataset is that it contains information about various Netflix shows, including their titles, genres, release years, and ratings. Analyzing this dataset could reveal trends in the types of shows Netflix produces, popular genres, and how ratings correlate with viewership.
+2. Data Fun:
+Let's use some simple SQL queries to explore the data.
+
+Cool Facts:
+Most popular genres on Netflix.
+Average rating of Netflix shows.
