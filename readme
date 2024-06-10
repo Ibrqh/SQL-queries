@@ -17,3 +17,7 @@ Now, let's formulate two questions about the data and find answers using SQL que
 Questions:
 What are the top-rated Netflix shows?
 How does the average rating vary across different genres?
+
+Learnings:
+The top-rated Netflix shows are [list of top-rated shows].
+[Insight about the variation in average ratings across different genres].
